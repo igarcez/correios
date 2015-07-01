@@ -3,11 +3,11 @@
  * @category   Storm
  * @package    Storm_Correios
  * @copyright  Copyright (c) 2013 Willian Cordeiro de Souza
- * @author     Willian Cordeiro de Souza <williancordeirodesouza@gmail.com> 
+ * @author     Willian Cordeiro de Souza <williancordeirodesouza@gmail.com>
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class Storm_Correios_Model_Source_Methods
-{    
+{
     /**
      * Gets all possible options
      * methods of Correios
@@ -31,7 +31,8 @@ class Storm_Correios_Model_Source_Methods
 		'label' => Mage::helper('correios')->__('With contract'),
 		'value' => array(
 		    array('value' => '40096', 'label' => Mage::helper('correios')->__('Sedex')),
-		    array('value' => '40126', 'label' => Mage::helper('correios')->__('Sedex a cobrar')),		    
+		    array('value' => '40126', 'label' => Mage::helper('correios')->__('Sedex a cobrar')),
+        array('value' => '40436', 'label' => Mage::helper('correios')->__('Sedex Contrato Médio')),
 		    array('value' => '41068', 'label' => Mage::helper('correios')->__('Pac')),
 		    array('value' => '81019', 'label' => Mage::helper('correios')->__('e-Sedex')),
 		    array('value' => '81027', 'label' => Mage::helper('correios')->__('e-Sedex prioritário')),
